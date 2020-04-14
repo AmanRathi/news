@@ -1,0 +1,684 @@
+/* Generic CSS starts here */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.4px;
+    margin-top: 70px;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.flex-prop{
+    display: flex;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+/* Generic CSS ends here */
+
+
+/* Timeline page css starts here */
+
+.h-about{
+    width: 100%;
+    background-image: url(images/home-about-bg.jpg);
+    margin-bottom: 40px;
+}
+
+.ti-about{
+    color: white;
+    max-width: 1100px;
+    width: 85.5%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.ti-about > h1{
+    padding-left: 10px;
+    margin-bottom: 5px;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.h-concept-point > li{
+    margin-bottom: 14px;
+    font-size: 14px;
+    letter-spacing: .4px;
+    line-height: 19px;
+}
+
+.h-trending-title-cont{
+    width: 100%;
+}
+
+.h-trending-title-cont-inner{
+    max-width: 1100px;
+    width: 85.5%;
+    margin: 0 auto;
+}
+
+.h-trending-news-title{
+    padding-left: 10px;
+    margin-bottom: 5px;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+header{
+    height: 70px;
+    background-color: black;
+    padding: 0px 40px 0px 40px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    transition: transform .2s;
+}
+
+nav{
+    flex-grow: 1;
+}
+
+nav > ul{
+    justify-content: flex-end;
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav > ul > li{
+    margin-left: 60px;
+}
+
+nav > ul > li > a{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav > ul > li > a:hover{
+    color: #A9A9A9;
+}
+
+
+
+.mobile-menu-btn{
+    display: none;
+}
+
+.ti-timeline-banner{
+    height: 500px;
+    position: relative;
+}
+
+.ti-timline-details{
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 20px;
+}
+
+.ti-timeline-title{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: .9px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.ti-timeline-source{
+    align-items: center;
+}
+
+.ti-source-icon > img{
+    width: 25px;
+}
+
+.ti-source-name{
+    margin-left: 10px;
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.ti-year-selector{
+    padding-left: 40px;
+    margin-bottom: 20px;
+    height: 40px;
+    background-color: #89E1FF;
+    align-items: center;
+}
+
+.ti-year-selector > div{
+    margin-right: 10px;
+    color: #4A4A4A;
+}
+
+.ti-year-selector > ul{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.ti-year-selector > ul > li > a{
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    color: #6B62FF;
+    border-right: 1px solid #969696;
+}
+
+.ti-article-cont{
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.ti-date{
+    height: 40px;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.ti-date-border{
+    height: 100%;
+    padding-right: 12px;
+}
+
+/* different date colors: */
+
+.orange{
+    border-right: 7px solid #FF8639;
+}
+
+.orange > .ti-day-month{
+    color: #FF8639;
+}
+
+.orange > .ti-year{
+    color: #FFB688;
+}
+
+.purple{
+    border-right: 7px solid #A758FE;
+}
+
+.purple > .ti-day-month{
+    color: #A758FE;
+}
+
+.purple > .ti-year{
+    color: #CA9BFE;
+}
+
+.red{
+    border-right: 7px solid #FF536A;
+}
+
+.red > .ti-day-month{
+    color: #FF536A;
+}
+
+.red > .ti-year{
+    color: #FF98A6;
+}
+
+/* different date colors css ends above */
+
+.ti-day-month{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ti-year{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.ti-article{
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ti-article:visited .ti-article-title{
+    color: #8e91ff;
+}
+
+.ti-article:hover .ti-article-content{
+    bottom: 20px;
+}
+
+.ti-article-content{
+    position: absolute;
+    left: 20px;
+    bottom: -30px;
+    right: 20px;
+    transition: bottom .2s;
+}
+
+.ti-article-title{
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.ti-article-auth{
+    align-items: center;
+}
+
+.ti-article-auth-icon > img {
+    width: 10px;
+}
+
+.ti-article-auth-name{
+    color: white;
+    margin-left: 10px;
+    font-weight: 100;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.ti-article-decs{
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+
+
+/* Media queries of timeline page starts here */
+
+@media only screen and (max-width: 959px){
+    .ti-about{
+        width: 100%;
+        background-size: 1567px;
+        background-position: -80px -48px;
+    }
+
+    .ti-timeline-banner{
+        height: 300px;
+    }
+
+    .ti-timline-details{
+        left: 16px;
+    }
+
+    .ti-timeline-title{
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .ti-source-name{
+        font-size: 10px;
+    }
+
+    .ti-date, .ti-article, .ti-article-cont{
+        display: block;
+    }
+
+    .ti-date, .ti-article{
+        width: 100%;
+    }
+    .ti-date{
+        text-align: left;
+        margin-bottom: 4px;
+    }
+
+    .ti-date-border{
+        border-left: 7px solid #FF8639;
+        border-right: none;
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 1023px){
+    .ti-article-decs{
+        display: none;
+    }
+
+    .ti-article-content{
+        bottom: 16px;
+    }
+
+    .ti-article-title{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .ti-article-auth-name{
+        font-size: 11px;
+    }
+
+    .ti-article-auth-icon > img{
+        width: 8px;
+    }
+
+    .mobile-menu-btn{
+        display: block;
+        background-image: url('images/menu-button.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 26px;
+        width: 26px;
+    }
+
+    nav{
+        position: fixed;
+        top: 70px;
+        left: 0px;
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        transform: translateX(-1200px);
+        transition: transform .8s;
+    }
+
+    nav > ul{
+        display: block !important;
+    }
+
+    nav > ul > li > a{
+        display: block;
+        height: 44px;
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    nav > ul > li{
+        margin-left: 0px;
+    }
+
+    header{
+        padding: 0px 20px 0px 20px;
+        justify-content: space-between;
+    }
+
+    .logo > img{
+        width: 150px;
+    }
+
+    .ti-year-selector{
+        display: block;
+        padding-left: 16px;
+        height: 60px;
+        padding-top: 8px;
+    }
+
+    .ti-year-selector > div{
+        margin-bottom: 8px;
+    }
+
+    .ti-year-selector > ul{
+        margin-left: -10px;
+        overflow-x: scroll;
+    }
+
+}
+
+/* @media only screen and (max-width: 1100px){
+    nav > ul > li{
+        margin-left: 44px;
+    }
+} */
+/* Media queries of timeline page ends above */
+/* Timeline page css ends above */
+
+
+
+.show{
+    transform: translateX(0px);
+}
+
+
+
+/* Home page css starts here */
+
+.h-main-stories{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.h-main-story-slide{
+    height: 360px;
+    background-color: gray;
+    position: relative;
+}
+
+.h-slider-cont:hover .ti-timeline-title{
+    text-decoration: underline;
+}
+
+.h-main-section{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+.h-main-section > h1{
+    padding-left: 10px;
+    margin-bottom: 5px;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.h-big-style-u{
+    margin-left: 10px;
+    width: 100px;
+    height: 4px;
+    border-radius: 6px;
+    margin-bottom: 22px;
+    background-color: #F36AC3;
+}
+
+.h-feat-two{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.one{
+    padding-right: 10px;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.two{
+    padding-left: 10px;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.h-feat-art-hover:hover .h-feat-title{
+    text-decoration: underline;
+}
+
+.h-feat-img{
+    height: 200px;
+    position: relative;
+}
+
+.h-feat-img > span{
+    position: absolute;
+    top: 14px;
+    left: 16px;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.h-feat-title{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 8px;
+}
+
+.h-feat-source-info{
+    align-items: center;
+}
+
+.h-feat-logo > img{
+    width: 22px;
+}
+
+.h-feat-source-name{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 14px;
+}
+
+.h-slide-cont-small:hover .h-feat-title{
+    text-decoration: underline;
+}
+
+.h-news-cat-slider{
+    margin-top: 30px;
+}
+
+/* the slides */
+.slick-slide {
+    margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+    margin: 0 -10px;
+}
+
+.slick-prev::before{
+    content: none;
+}
+
+/* Media queries of home page starts here */
+
+@media only screen and (max-width: 959px){
+    .h-main-stories{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .h-feat-two{
+        display: block;
+    }
+
+    .two{
+        padding-left: 0px;
+    }
+
+    .one{
+        padding-right: 0px;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .h-main-section{
+        width: 100%;
+    }
+
+    .slick-prev{
+        left: 20px !important;
+        z-index: 1;
+    }
+
+    .slick-next{
+        right: 20px !important;
+        z-index: 1;
+    }
+
+    .ti-date{
+
+    }
+}
+
+/* Media queries of home page ends above */
+
+/* Home page css ends above */
+
+
+/* footer css starts here*/
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 60px;
+}
+
+/* footer css ends above*/
